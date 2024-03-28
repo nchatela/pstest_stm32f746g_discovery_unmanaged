@@ -1,0 +1,16 @@
+doxygen/doxygen_new_line_after_brief=true
+doxygen/doxygen_use_brief_tag=false
+doxygen/doxygen_use_javadoc_tags=true
+doxygen/doxygen_use_pre_tag=false
+doxygen/doxygen_use_structural_commands=false
+eclipse.preferences.version=1
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.329037455/PSTEST/delimiter=;
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.329037455/PSTEST/operation=replace
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.329037455/PSTEST/value=C\:/Program Files/Polyspace/R2023b
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.329037455/append=true
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.329037455/appendContributed=true
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1481311213/PSTEST_FOLDER/delimiter=;
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1481311213/PSTEST_FOLDER/operation=append
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1481311213/PSTEST_FOLDER/value=C\:\\Program Files\\Polyspace\\R2023b\\polyspace\\pstest
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1481311213/append=true
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1481311213/appendContributed=true
