@@ -2,19 +2,24 @@
 
 ## Overview
 
-This repository contains an STM32CubeIDE project that is set up to do the following: 
+This demo contains an STM32CubeIDE project that is set up to do the following: 
 
 * Run some sample C/C++ tests written using the Polyspace Test xUnit API on an STM32F746G Discovery board 
-* Collect coverage data after test execution using the polyspace-code-profiler command (available with Polyspace Test).  
+* Collect coverage data after test execution using the polyspace-code-profiler command (available with Polyspace Test).
+
+The demo assumes the following:
+* You have a STM32F746G Discovery board connected to your computer.
+* You have installed the STM32Cube IDE.
+* You have installed the Polyspace Test product.
 
 ## Run Demo Project Using Your Polyspace Test Installation
 
 To adapt the project to your Polyspace Test installation and run the tests or get coverage results, download the project and follow these steps:
 
-1. Clone the Git repository into a folder `pstest_stm32f746g_discovery_unmanaged`. 
+1. Download the demo and extract into a folder `nchatela-pstest_stm32f746g_discovery_unmanaged-4055114`. 
 
 2. Open the STM32CubeIDE interface. Select **File** > **Open Projects from File System**.   
-Add the folder `pstest_stm32f746g_discovery_unmanaged` to the **Import Source** field.<br><br>
+Add the path to the folder `nchatela-pstest_stm32f746g_discovery_unmanaged-4055114` to the **Import Source** field.<br><br>
 ![Import Projects window](Images/import_project.png)
 
 3. Click **Finish**. On the **Project Explorer** pane, you see a project with these folders: 
@@ -33,11 +38,11 @@ This project has been created by adapting an example STM32CubeIDE project to run
 - Select **C/C++ Build** > **Environment**. 
 Change the value of the variable `PSTEST` to your Polyspace installation folder.
 
-6. Click the Debug icon ![Debug icon](Images/bug.png) to start the build.
+6. Click the Debug icon ![Debug icon](Images/bug.png) to build the project and start executon on the STM32F746G board. Alternatively, you can right-click the root node of the project and select **Build Project**, and after build is over, right-click and select **Debug As > STM32 Application**.
 If prompted to switch to the Debug perspective, select **Switch**.<br><br>
 ![Confirm Perspective Switch prompt](Images/debug_perspective.png) 
 
-7. Click the Resume icon ![Resume icon](Images/RESUME.png) to run the application on the STM32F746G board.  
+7. Click the Resume icon ![Resume icon](Images/RESUME.png) to resume the application on the STM32F746G board.  
 The results of test execution appear on the LCD screen of the board.
 
 8. This project is set up to collect coverage data after execution on target. 
