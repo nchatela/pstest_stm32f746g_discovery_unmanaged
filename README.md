@@ -107,8 +107,8 @@ The functions in the folder `Application\sources` are tested using xUnit tests i
 
 Open the file `profilingTests.c` to see examples of tests written using the Polyspace Test xUnit API. The tests use macros declared in the header `pstunit.h` available in a Polyspace Test installation. The path to this header is included as an include path during project build (see later).
 
-For more information on the xUnit API, see [Author Tests Using C/C++ xUnit API
-](https://www.mathworks.com/help/polyspace_test/create-and-run-xunit-based-tests-at-the-command-line.html).
+For more information on the xUnit API, see [Test Authoring Using C/C++ xUnit API
+](https://www.mathworks.com/help/polyspace_test/test-authoring-using-cc-xunit-api.html).
 
 ### Configuration Files for Tests
 
