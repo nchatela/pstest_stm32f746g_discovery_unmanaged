@@ -7,8 +7,9 @@
 static void LCD_Config(void);
 static void SystemClock_Config(void);
 
-#include "psprofile.h"
 #include "pstunit.c"
+#include "psprofile.h"
+
 
 static TIM_HandleTypeDef TimHandle;
 
