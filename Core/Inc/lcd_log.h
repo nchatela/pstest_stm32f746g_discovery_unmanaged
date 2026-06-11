@@ -90,8 +90,8 @@ void LCD_LOG_SetHeader(uint8_t *Title);
 void LCD_LOG_SetFooter(uint8_t *Status);
 void LCD_LOG_ClearTextZone(void);
 void LCD_LOG_UpdateDisplay (void);
-void LCD_LOG_Puts(uint8_t* text);
-void LCD_LOG_Puts_color(uint8_t* text, uint32_t color);
+void LCD_LOG_Puts(uint8_t* text, size_t len);
+void LCD_LOG_Puts_color(uint8_t* text, size_t len, uint32_t color);
 
 
 #if (LCD_SCROLL_ENABLED == 1)

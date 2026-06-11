@@ -219,16 +219,16 @@ void LCD_LOG_ClearTextZone(void)
   LCD_LOG_DeInit();
 }
 
-void LCD_LOG_Puts_color(uint8_t* text, uint32_t color) {
+void LCD_LOG_Puts_color(uint8_t* text, size_t len, uint32_t color) {
 	LCD_LineColor = color;
-	for(int i = 0; i < strlen((char*)text); i++) {
+	for(int i = 0; i < len; i++) {
 		LCD_Log_putchar(text[i]);
 	}
 	//LCD_Log_putchar('\n');
 }
 
-void LCD_LOG_Puts(uint8_t* text) {
-	LCD_LOG_Puts_color(text, LCD_LOG_TEXT_COLOR);
+void LCD_LOG_Puts(uint8_t* text, size_t len) {
+	LCD_LOG_Puts_color(text, len, LCD_LOG_TEXT_COLOR);
 }
 
 static void LCD_Log_putchar(int ch)

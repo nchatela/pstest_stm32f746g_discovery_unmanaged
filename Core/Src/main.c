@@ -57,8 +57,8 @@ int main(void)
 
   BSP_LCD_SetTextColor(LCD_COLOR_RED);
   LCD_LOG_Init();
-  LCD_LOG_SetHeader((uint8_t*)"Polyspace Test 1.0");
-  LCD_LOG_SetFooter((uint8_t*)"Copyright The Mathworks 2024");
+  LCD_LOG_SetHeader((uint8_t*)"Polyspace Test R2026a");
+  LCD_LOG_SetFooter((uint8_t*)"Copyright The Mathworks 2026");
 
   PST_REGFCN_CALL(registerTests);
   PST_MAIN(0, NULL);
